@@ -19,7 +19,11 @@ public class Display {
 
 	public void printNotes(List<Note> notes) {
 		
-		for (Note n: notes) {
+		if (notes == null || notes.size() == 0) {
+			System.out.println("No notes found");
+		}
+		
+		for (Note n : notes) {
 			System.out.println(n);
 		}
 
