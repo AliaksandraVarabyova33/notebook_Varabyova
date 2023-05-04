@@ -7,7 +7,7 @@ import edu.examples.java_classes.logic.NotebookLogic;
 
 public class ConsoleShowAllNotes implements Command{
 	
-	NotebookLogic logic = new NotebookLogic();
+	private NotebookLogic logic = new NotebookLogic();
 	private Display display = MenuBuilder.getInstance().getDisplay();
 	
 	@Override
