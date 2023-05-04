@@ -13,7 +13,7 @@ public class ConsoleFindItemByDate implements Command{
 
 
 	private InputTerminal terminal = MenuBuilder.getInstance().getTerminal();
-	NotebookLogic logic = new NotebookLogic();
+	private NotebookLogic logic = new NotebookLogic();
 	private Display display = MenuBuilder.getInstance().getDisplay();
 	
 	@Override
